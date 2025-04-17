@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load API key
 load_dotenv()
-API_KEY = os.getenv("OPENWEATHER_API_KEY")
+api_key = st.secrets["OPENWEATHERMAP_API_KEY"]
 print(API_KEY)
 # Custom CSS for style
 st.markdown("""
