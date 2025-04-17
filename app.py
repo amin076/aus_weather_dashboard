@@ -45,7 +45,7 @@ cities = {
 
 # Fetch weather forecast data
 def get_weather_data(city):
-    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}&units=metric"
+    url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api-key}&units=metric"
     res = requests.get(url)
 
     if res.status_code != 200:
